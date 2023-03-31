@@ -3,7 +3,7 @@ import React from 'react';
 const Bookmark = (props) => {
 
     const { bookmark,readingTime} = props;
-    console.log(bookmark)
+  
     
     let totalTime = 0;
     for (const blog of readingTime) {
